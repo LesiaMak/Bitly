@@ -1,0 +1,12 @@
+.env
+.cache
+.config
+.upm
+venv
+.breakpoints
+.replit
+Pipfile
+Pipfile.lock
+pyproject.toml
+replit.nix
+replit_zip_error_log.txt
