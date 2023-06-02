@@ -65,11 +65,11 @@ def main():
             print('Number clicks is ', count_clicks(bitly_token, url))
         except requests.exceptions.HTTPError:
             print('This link does not exist')
-        else:
-            try:
-                print('Bitlink - ', shorten_link(bitly_token, url))
-            except requests.exceptions.HTTPError:
-                print('You have input unexisted url')    
+    else:
+        try:
+            print('Bitlink - ', shorten_link(bitly_token, url))
+        except requests.exceptions.HTTPError:
+            print('You have input unexisted url')    
 
 
 if __name__ == '__main__':
